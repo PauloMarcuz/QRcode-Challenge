@@ -1,0 +1,67 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: #d5e1ef;
+    max-width: 1440px;
+    width: 100%;
+    padding: 3% 2%;
+}
+
+.box-QRcode{
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    row-gap: 15px;
+    box-shadow: 2px 2px 5px #cdd6df;
+}
+
+.box-QRcode img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box-QRcode h1{
+    font-weight: 700;
+    color: #22304a;
+}
+
+.box-QRcode p{
+    font-weight: 400;
+    color: #868a93;
+}
+
+.box-QRcode a{
+    text-decoration: none;
+    color: #22304a;
+    padding: 15px;
+}
+
+.box-QRcode a:hover{
+    border-left: 1px solid #22304a;
+    border-right: 1px solid #22304a;
+    border-radius: 15px;
+}
+
+.attribution{
+    text-align: center;
+    padding: 3% 2%;
+}
+
+@media (max-width:768px){
+    .box-QRcode{
+        width: 75%;
+        padding: 3% 3%;
+    }
+
+}
